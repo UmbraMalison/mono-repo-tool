@@ -310,6 +310,9 @@ function synthetic()
 echo "Mono Repo Tool"
 echo "=============="
 echo
+echo "Dependencies: git, git big-picture, git filter-repo, bash"
+echo "not written for portability or posix compliance"
+echo
 PS3="Choose which mode: "
 select opt in synthetic; do
 	case ${opt} in
