@@ -292,7 +292,7 @@ function synthetic()
 {
   rm -rf "${newrepo}" "${subrepo}"
 
-	get_filter-repo
+	#get_filter-repo # commented out for public use
 	create_monorepo
 	create_subrepo
   mkdir -p "${newrepo}"
